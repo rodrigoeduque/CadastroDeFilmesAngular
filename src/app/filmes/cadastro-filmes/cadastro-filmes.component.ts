@@ -1,3 +1,4 @@
+import { Alerta } from './../../shared/models/alerta';
 import { AlertaComponent } from './../../shared/components/alerta/alerta.component';
 import { FilmesService } from "./../../core/filmes.service";
 import { Filme } from "./../../shared/models/filme";
@@ -5,6 +6,8 @@ import { ValidarCamposService } from "./../../shared/components/validar-campos.s
 import { Component, OnInit } from "@angular/core";
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 import { MatDialog } from "@angular/material/dialog";
+import { Router } from '@angular/router';
+import { config } from 'rxjs';
 
 @Component({
   selector: "dio-cadastro-filmes",
@@ -20,6 +23,7 @@ export class CadastroFilmesComponent implements OnInit {
     public dialog: MatDialog,
     private fb: FormBuilder,
     private filmesService: FilmesService,
+    private router: Router
   ) {}
 
   get f() {
@@ -66,17 +70,38 @@ export class CadastroFilmesComponent implements OnInit {
   }
 
   reiniciarForm(): void {
-    this.cadastro.reset;
+    this.cadastro.reset();
   }
 
   private salvar(filme: Filme): void {
     this.filmesService.salvar(filme).subscribe(() => {
-      const dialogRef = this.dialog.open(AlertaComponent);
-      
-    }),
-      () => {
-        alert("Erro ao salvar");
+      const config = {
+        data: {
+          btnSucesso: 'Ir para a listagem',
+          btnCancelar: 'Cadastrar um novo filme',
+          corBtnCancelar: 'primary',
+          possuirBtnFechar: true
+        } as Alerta
       };
-
+      const dialogRef = this.dialog.open(AlertaComponent, config);
+      dialogRef.afterClosed().subscribe((opcao: boolean) => {
+        if (opcao) {
+          this.router.navigateByUrl('filmes');
+        } else {
+          this.reiniciarForm();
+        }
+      });
+    },
+    () => {
+      const config = {
+        data: {
+          titulo: 'Erro ao salvar o registro!',
+          descricao: 'Não conseguimos salvar seu registro, favor tentar novamente mais tarde',
+          corBtnSucesso: 'warn',
+          btnSucesso: 'Fechar'
+        } as Alerta
+      };
+      this.dialog.open(AlertaComponent, config);
+    });
   }
 }
