@@ -17,7 +17,7 @@
       "descricao": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.\n",
       "nota": 9,
       "urlIMDB": "https://www.imdb.com/title/tt0468569/",
-      "genero": "Ação",
+      "genero": "Aventura",
       "id": 2
     },
     {
@@ -27,7 +27,7 @@
       "descricao": "Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient artifact that grants wishes goes missing.\n",
       "nota": 5.4,
       "urlIMDB": "https://www.imdb.com/title/tt7126948/",
-      "genero": "Ação",
+      "genero": "Aventura",
       "id": 3
     },
     {
@@ -57,7 +57,7 @@
       "descricao": "After the devastating events of Vingadores: Guerra Infinita (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.\n",
       "nota": 8.4,
       "urlIMDB": "https://www.imdb.com/title/tt4154796/",
-      "genero": "Ação",
+      "genero": "Aventura",
       "id": 9
     },
     {
@@ -67,7 +67,7 @@
       "descricao": "Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man.",
       "nota": 7.8,
       "urlIMDB": "https://www.imdb.com/title/tt3498820/",
-      "genero": "Ação",
+      "genero": "Aventura",
       "id": 10
     },
     {
@@ -77,7 +77,7 @@
       "descricao": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
       "nota": 7.4,
       "urlIMDB": "https://www.imdb.com/title/tt2250912/",
-      "genero": "Ação",
+      "genero": "Aventura",
       "id": 11
     },
     {
@@ -149,6 +149,36 @@
       "urlIMDB": "https://www.imdb.com/title/tt0110148/",
       "genero": "Terror",
       "id": 18
+    },
+    {
+      "titulo": "Vingadores: Era de Ultron",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dataLancamento": "2015-04-23T03:00:00.000Z",
+      "descricao": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.",
+      "nota": 7.3,
+      "urlIMDB": "https://www.imdb.com/title/tt2395427/",
+      "genero": "Aventura",
+      "id": 19
+    },
+    {
+      "titulo": "Teste Sem Foto",
+      "urlFoto": "",
+      "dataLancamento": "2021-03-07T03:00:00.000Z",
+      "descricao": "TESTE TESTE TESTE",
+      "nota": 10,
+      "urlIMDB": "",
+      "genero": "Comédia",
+      "id": 20
+    },
+    {
+      "titulo": "TESTE SEM DESCRICAO",
+      "urlFoto": "",
+      "dataLancamento": "2021-03-07T03:00:00.000Z",
+      "descricao": "",
+      "nota": 10,
+      "urlIMDB": "",
+      "genero": "Terror",
+      "id": 21
     }
   ]
 }
