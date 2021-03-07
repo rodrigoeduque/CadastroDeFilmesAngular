@@ -161,24 +161,44 @@
       "id": 19
     },
     {
-      "titulo": "Teste Sem Foto",
-      "urlFoto": "",
-      "dataLancamento": "2021-03-07T03:00:00.000Z",
-      "descricao": "TESTE TESTE TESTE",
-      "nota": 10,
-      "urlIMDB": "",
-      "genero": "Comédia",
+      "titulo": "O Poderoso Chefão",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR3,0,182,268_AL_.jpg",
+      "dataLancamento": "1972-09-10T03:00:00.000Z",
+      "descricao": "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son.",
+      "nota": 9.2,
+      "urlIMDB": "https://www.imdb.com/title/tt0068646/",
+      "genero": "Drama",
       "id": 20
     },
     {
-      "titulo": "TESTE SEM DESCRICAO",
-      "urlFoto": "",
-      "dataLancamento": "2021-03-07T03:00:00.000Z",
-      "descricao": "",
-      "nota": 10,
-      "urlIMDB": "",
-      "genero": "Terror",
+      "titulo": "O Silêncio dos Inocentes",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dataLancamento": "1991-05-17T03:00:00.000Z",
+      "descricao": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.\n",
+      "nota": 8.6,
+      "urlIMDB": "https://www.imdb.com/title/tt0102926/",
+      "genero": "Drama",
       "id": 21
+    },
+    {
+      "titulo": "Pulp Fiction: Tempo de Violência",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR1,0,182,268_AL_.jpg",
+      "dataLancamento": "1995-03-03T03:00:00.000Z",
+      "descricao": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.\n",
+      "nota": 8.9,
+      "urlIMDB": "https://www.imdb.com/title/tt0110912/",
+      "genero": "Drama",
+      "id": 22
+    },
+    {
+      "titulo": "O Exorcista",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BYjhmMGMxZDYtMTkyNy00YWVmLTgyYmUtYTU3ZjcwNTBjN2I1XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dataLancamento": "1974-11-11T03:00:00.000Z",
+      "descricao": "When a 12-year-old girl is possessed by a mysterious entity, her mother seeks the help of two priests to save her.",
+      "nota": 8,
+      "urlIMDB": "https://www.imdb.com/title/tt0070047/",
+      "genero": "Terror",
+      "id": 23
     }
   ]
 }
