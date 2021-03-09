@@ -10,16 +10,17 @@ import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 export class AlertaComponent implements OnInit {
 
   alerta = {
-  titulo :'Sucesso',
-  descricao : 'Seu registro foi criado',
-  btnSucesso : 'Ok',
-  btnCancelar : 'Cancelar',
-  corBtnSucesso : 'accent',
-  corBtnCancelar : 'warn',
-  possuiBtnFechar : false
-} as Alerta
+    titulo: 'Sucesso!',
+    descricao: 'Seu registro foi cadastrado com sucesso!',
+    btnSucesso: 'OK',
+    btnCancelar: 'Cancelar',
+    corBtnSucesso: 'accent',
+    corBtnCancelar: 'warn',
+    possuirBtnFechar: false
+  } as Alerta;
 
-  constructor(public dialogRef: MatDialogRef<AlertaComponent>, @Inject(MAT_DIALOG_DATA) public data: Alerta) { }
+  constructor(public dialogRef: MatDialogRef<AlertaComponent>,
+    @Inject(MAT_DIALOG_DATA) public data: Alerta) { }
 
   ngOnInit() {
     if(this.data) {
@@ -29,7 +30,7 @@ export class AlertaComponent implements OnInit {
       this.alerta.btnCancelar = this.data.btnCancelar || this.alerta.btnCancelar;
       this.alerta.corBtnSucesso = this.data.corBtnSucesso || this.alerta.corBtnSucesso;
       this.alerta.corBtnCancelar = this.data.corBtnCancelar || this.alerta.corBtnCancelar;
-      this.alerta.possuiBtnFechar = this.data.possuiBtnFechar || this.alerta.possuiBtnFechar;
+      this.alerta.possuirBtnFechar = this.data.possuirBtnFechar || this.alerta.possuirBtnFechar;
     }
   }
 
